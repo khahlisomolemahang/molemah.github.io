@@ -1,0 +1,289 @@
+@import url('https://font.googleapis.com/css?family=Poppins:wght@300;500;600;700&display=swap');
+body{
+    line-height: 1.5;
+    font-family: 'poppins',sans-serif;
+}
+
+
+
+*{
+	box-sizing: border-box;
+
+}
+body{
+	background-color: white;
+}
+nav{
+    background-color: purple;
+    height: 78px;
+    width: 100%;
+    overflow: auto;
+
+}
+ul{
+   float: right;
+   list-style: none;
+   margin-top: 1px;
+}
+.logo{
+	float: left;
+	margin-top: 27px;
+	color: blue;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 20px;
+	width: 170px;
+	margin-left: 9px;
+
+}
+li{
+    display: inline-flex;
+
+}
+nav a{ 
+	width: 120px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: arial;
+	text-transform: uppercase;
+    color: white;
+    padding: 28px;
+    text-align: center;
+
+}
+nav a:hover{
+	background-color: gray;
+	color: black;
+}
+div .head{
+	color: black;
+	align-items: center;
+	margin-top: 30px;
+	text-transform: uppercase;
+	margin-left: 470px;
+}
+header{
+	font-size: 67px;
+	text-transform: uppercase;
+	font-family: all;
+	margin-left: 370px;
+
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+   list-style: none;
+
+}
+.footer{
+	margin-top:400px;
+    height: 800px;
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 20%;
+    padding:0 15px;
+
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    background-color:#e91e63 ;
+    height:2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height:40px;
+    border-radius:50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color:#ffffff ;
+}
+.h3{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    color: white;
+
+}
+h5{
+    color: white;
+    margin-bottom: 30px;
+    list-style: none;
+    display: flex;
+    margin-left: 100px;
+}
+h5 li{
+    width: 200px;
+
+}.body{ 
+      
+      margin-top: 10px;
+}
+.body1{
+	  display: inline-block;
+      height: 400px;
+      width: 500px;
+      margin-top: 5px;
+      align-items: center;
+      text-align: center;
+}
+.back{
+	background-image: url(1.jpg);
+	height: 800px;
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+
+}
+.2{
+	width: 400px;
+}
+.3{
+	width: 70%;
+}
+.body2{
+
+	display: inline-flex;
+}
+.mainb{
+
+	display: flex;
+
+}
+<!--work-->
+.mywork{
+    width: 500px;
+    height: 300px;
+    border: solid red;
+    display: inline-block;
+}
+.work{
+    width: 410px;
+    height: 600px;
+    display: inline-block;
+    margin: 10px;
+    align-items: center;
+}
+.work img{
+    width:400px;
+}
+.work p{
+    text-align: center;
+    font-weight: bold;
+}
+.work p:hover{
+    color: blue;
+}
+.ground{
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+
+}
+.sub{
+    background-color: red;
+    color: blue;
+    height: 25px;
+    width: 120px;
+    border-radius: 4px;
+}
+.sub:hover{
+     background-color: blue;
+     color: white;
+}
+.like{
+    background-color: white;
+    color: black;
+    height: 25px;
+    width: 50px;
+    border-radius: 4px;
+}
+.like:hover{
+     background-color: blue;
+     color: white;
+}
+.join{
+    background-color: blue;
+    color: white;
+    height: 25px;
+    width: 100px;
+    border-radius: 4px;
+}
+.join:hover{
+     background-color: red;
+     color: white;
+}
+form{
+    background: white;
+    float: left;
+    overflow: auto;
+    height: 450px;
+    border: solid orange;
+    border-bottom: none;
+}
+.first{
+    float: left;
+    width: 320px;
+    
+}
+.radio{
+    display: flex;
+}
+button{
+    background-color:orange;
+    width: 40%;
+    margin-left: px;
+    border-radius: 4px;
+    height: 30px;
+
+}
+button:hover{
+    background-color: orange;
+    color:white;
